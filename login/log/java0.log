@@ -1,0 +1,25 @@
+2026.03.11 13:47:38,925	INFO	3	org.l2jmobius.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
+2026.03.11 13:47:39,403	INFO	3	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized with a valid connection.
+2026.03.11 13:47:39,419	INFO	3	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initializing.
+2026.03.11 13:47:39,425	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 2 total threads.
+2026.03.11 13:47:39,425	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 2 total threads.
+2026.03.11 13:47:39,427	INFO	3	org.l2jmobius.loginserver.LoginController	Loading LoginController...
+2026.03.11 13:47:40,157	INFO	3	org.l2jmobius.loginserver.LoginController	Cached 10 KeyPairs for RSA communication.
+2026.03.11 13:47:40,190	INFO	3	org.l2jmobius.loginserver.LoginController	Stored 20 keys for Blowfish communication.
+2026.03.11 13:47:40,346	INFO	3	org.l2jmobius.loginserver.GameServerTable	Loaded 127 server names.
+2026.03.11 13:47:41,754	INFO	3	org.l2jmobius.loginserver.GameServerTable	Loaded 1 registered Game Servers.
+2026.03.11 13:47:41,832	INFO	3	org.l2jmobius.loginserver.GameServerTable	Cached 10 RSA keys for Game Server communication.
+2026.03.11 13:47:41,838	INFO	3	org.l2jmobius.loginserver.LoginServer	Loaded 2 IP Bans.
+2026.03.11 13:47:41,840	INFO	3	org.l2jmobius.loginserver.LoginServer	Listening for GameServers on 127.0.0.1:9014
+2026.03.11 13:47:41,860	INFO	3	org.l2jmobius.loginserver.LoginServer	LoginServer: is now listening on: 0.0.0.0:2106
+2026.03.11 13:47:57,992	INFO	52	org.l2jmobius.loginserver.GameServerThread	Updated Gameserver [2] Sieghardt IP's:
+2026.03.11 13:47:57,994	INFO	52	org.l2jmobius.loginserver.GameServerThread	127.0.0.1/127.0.0.0/8
+2026.03.11 13:47:57,994	INFO	52	org.l2jmobius.loginserver.GameServerThread	192.168.20.27/192.168.20.0/24
+2026.03.11 13:47:57,994	INFO	52	org.l2jmobius.loginserver.GameServerThread	181.50.102.3/0.0.0.0/0
+2026.03.11 13:53:45,826	INFO	58	org.l2jmobius.loginserver.LoginController	Auto created account 'Gladiador12'.
+2026.03.11 13:55:07,074	INFO	58	org.l2jmobius.loginserver.LoginController	Auto created account 'ggg'.
+2026.03.11 14:33:15,092	INFO	58	org.l2jmobius.loginserver.LoginController	Auto created account '12345'.
+2026.03.11 16:03:08,640	INFO	52	org.l2jmobius.loginserver.network.gameserverpackets.ChangeAccessLevel	Changed 12345 access level to -1
+2026.03.11 16:21:24,554	INFO	58	org.l2jmobius.loginserver.LoginController	Auto created account 'luiscarlos'.
+2026.03.11 17:16:19,020	INFO	58	org.l2jmobius.loginserver.LoginController	Auto created account 'luiscarlos1'.
+2026.03.11 19:05:22,092	INFO	57	org.l2jmobius.loginserver.LoginController	Auto created account 'luis'.

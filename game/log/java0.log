@@ -1,0 +1,635 @@
+2026.03.11 13:39:56,229	INFO	3	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml does not exist, using automatic configuration...
+2026.03.11 13:39:56,611	INFO	3	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+2026.03.11 13:39:56,612	INFO	3	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 192.168.20.0/24 address: 192.168.20.27
+2026.03.11 13:39:56,613	INFO	3	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 0.0.0.0/0 address: 181.50.102.3
+2026.03.11 13:39:56,619	INFO	3	org.l2jmobius.gameserver.config.ServerConfig	Loaded 6 Filter Words.
+2026.03.11 13:39:56,713	INFO	3	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Database ]
+2026.03.11 13:39:57,013	INFO	3	org.l2jmobius.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
+2026.03.11 13:39:57,390	INFO	3	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized with a valid connection.
+2026.03.11 13:39:57,405	INFO	3	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ ThreadPool ]
+2026.03.11 13:39:57,406	INFO	3	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initializing.
+2026.03.11 13:39:57,410	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 8 high priority threads.
+2026.03.11 13:39:57,420	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 32 total threads.
+2026.03.11 13:39:57,421	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 16 total threads.
+2026.03.11 13:39:57,425	INFO	3	org.l2jmobius.gameserver.GameServer	-----------------------------------------------=[ IdManager ]
+2026.03.11 13:39:57,558	INFO	3	org.l2jmobius.gameserver.managers.DatabaseIdManager	DatabaseIdManager: Cleaned 0 elements in 0 seconds.
+2026.03.11 13:39:57,566	INFO	3	org.l2jmobius.gameserver.managers.DatabaseIdManager	DatabaseIdManager: Updated character online status.
+2026.03.11 13:39:57,579	INFO	3	org.l2jmobius.gameserver.managers.DatabaseIdManager	DatabaseIdManager: Cleaned 0 expired timestamps.
+2026.03.11 13:39:57,615	INFO	3	org.l2jmobius.gameserver.managers.IdManager	IdManager: 102912 ids available.
+2026.03.11 13:39:57,616	INFO	3	org.l2jmobius.gameserver.GameServer	----------------------------------------=[ Scripting Engine ]
+2026.03.11 13:39:58,181	INFO	3	org.l2jmobius.gameserver.scripting.ScriptEngine	Loaded 419 files to exclude.
+2026.03.11 13:39:58,181	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ World ]
+2026.03.11 13:39:58,189	INFO	3	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Multiverse Instance created.
+2026.03.11 13:39:58,189	INFO	3	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Universe Instance created.
+2026.03.11 13:39:58,212	INFO	3	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Loaded 160 instance names.
+2026.03.11 13:39:58,971	INFO	3	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Loaded 142 instance templates.
+2026.03.11 13:39:59,134	INFO	3	org.l2jmobius.commons.util.IXmlReader	MapRegionManager: Loaded 57 map regions.
+2026.03.11 13:39:59,151	INFO	3	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Loaded 2 variables.
+2026.03.11 13:39:59,152	INFO	3	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ Data ]
+2026.03.11 13:39:59,194	INFO	3	org.l2jmobius.gameserver.data.xml.CategoryData	CategoryData: Loaded 180 categories.
+2026.03.11 13:39:59,207	INFO	3	org.l2jmobius.commons.util.IXmlReader	SecondaryAuthData: Loaded 328 forbidden passwords.
+2026.03.11 13:39:59,208	INFO	3	org.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Skills ]
+2026.03.11 13:40:03,425	INFO	3	handlers.EffectMasterHandler	EffectMasterHandler: Loaded 165 effect handlers.
+2026.03.11 13:40:03,795	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantSkillGroupsData: Loaded 4 groups and 90 routes.
+2026.03.11 13:40:05,063	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 17176 Class Skills for 103 class skill trees.
+2026.03.11 13:40:05,065	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 76 sub-class skills.
+2026.03.11 13:40:05,066	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 77 transfer skills for 3 transfer skill trees.
+2026.03.11 13:40:05,066	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 117 fishing skills, 8 Dwarven only fishing skills.
+2026.03.11 13:40:05,068	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 3 collect skills.
+2026.03.11 13:40:05,076	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 94 clan skills, 64 for clan and 30 residential.
+2026.03.11 13:40:05,076	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 18 sub-pledge skills.
+2026.03.11 13:40:05,077	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 32 transform skills.
+2026.03.11 13:40:05,077	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 8 noble skills.
+2026.03.11 13:40:05,077	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 5 hero skills.
+2026.03.11 13:40:05,079	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 46 game master skills.
+2026.03.11 13:40:05,080	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 46 game master aura skills.
+2026.03.11 13:40:12,126	INFO	3	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Loaded 65965 Skill templates from XML files.
+2026.03.11 13:40:12,256	INFO	3	org.l2jmobius.gameserver.data.xml.PetSkillData	PetSkillData: Loaded 881 skills.
+2026.03.11 13:40:12,256	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Items ]
+2026.03.11 13:40:14,710	INFO	3	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Highest item id used: 50000
+2026.03.11 13:40:14,743	INFO	3	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 11482 etc items.
+2026.03.11 13:40:14,743	INFO	3	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 3825 armor items.
+2026.03.11 13:40:14,743	INFO	3	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 3893 weapon items.
+2026.03.11 13:40:14,744	INFO	3	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 19200 items in total.
+2026.03.11 13:40:14,765	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Loaded 4 item group templates.
+2026.03.11 13:40:14,765	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Loaded 1 scroll group templates.
+2026.03.11 13:40:14,765	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Max weapon enchant is set to 16.
+2026.03.11 13:40:14,765	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Max armor enchant is set to 16.
+2026.03.11 13:40:14,766	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Max accessory enchant is set to 16.
+2026.03.11 13:40:14,779	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemData: Loaded 63 enchant scrolls.
+2026.03.11 13:40:14,780	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemData: Loaded 20 support items.
+2026.03.11 13:40:17,097	INFO	3	org.l2jmobius.gameserver.data.xml.OptionData	OptionData: Loaded 24985 options.
+2026.03.11 13:40:17,126	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemOptionsData: Loaded 23 items and 1093 options.
+2026.03.11 13:40:17,221	INFO	3	org.l2jmobius.commons.util.IXmlReader	ElementalAttributeData: Loaded 30 elemental attribute items.
+2026.03.11 13:40:17,262	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemHPBonusData: Loaded 6 enchant HP bonuses.
+2026.03.11 13:40:17,295	INFO	3	org.l2jmobius.gameserver.data.MerchantPriceConfigTable	MerchantPriceConfigTable: Loaded 28 merchant price configs.
+2026.03.11 13:40:19,235	WARNING	3	org.l2jmobius.commons.util.IXmlReader	Directory not found: C:\Users\Administrator\Documents\server\game\.\data\buylists\custom
+2026.03.11 13:40:19,236	INFO	3	org.l2jmobius.gameserver.data.xml.BuyListData	BuyListData: Loaded 760 buyLists.
+2026.03.11 13:40:19,918	INFO	3	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 204 multisell lists.
+2026.03.11 13:40:19,987	INFO	3	org.l2jmobius.commons.util.IXmlReader	RecipeData: Loaded 1000 recipes.
+2026.03.11 13:40:20,055	INFO	3	org.l2jmobius.commons.util.IXmlReader	ArmorSetData: Loaded 204 armor sets.
+2026.03.11 13:40:20,103	INFO	3	org.l2jmobius.commons.util.IXmlReader	FishData: Loaded 278 fishes.
+2026.03.11 13:40:20,111	INFO	3	org.l2jmobius.commons.util.IXmlReader	FishingMonstersData: Loaded 8 fishing monsters.
+2026.03.11 13:40:20,116	INFO	3	org.l2jmobius.commons.util.IXmlReader	FishingRodsData: Loaded 6 fishing rods.
+2026.03.11 13:40:20,156	INFO	3	org.l2jmobius.commons.util.IXmlReader	HennaData: Loaded 180 henna data.
+2026.03.11 13:40:20,162	INFO	3	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ Characters ]
+2026.03.11 13:40:20,171	INFO	3	org.l2jmobius.gameserver.data.xml.ClassListData	ClassListData: Loaded 103 class data.
+2026.03.11 13:40:20,210	INFO	3	org.l2jmobius.gameserver.data.xml.InitialEquipmentData	InitialEquipmentData: Loaded 11 initial equipment data.
+2026.03.11 13:40:20,222	INFO	3	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 5 initial global shortcut data.
+2026.03.11 13:40:20,222	INFO	3	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 4 initial shortcut data.
+2026.03.11 13:40:20,223	INFO	3	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 0 macro presets.
+2026.03.11 13:40:20,234	INFO	3	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Loaded 86 levels.
+2026.03.11 13:40:20,235	INFO	3	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Player Level is 85.
+2026.03.11 13:40:20,236	INFO	3	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Pet Level is 85.
+2026.03.11 13:40:20,246	INFO	3	org.l2jmobius.gameserver.data.xml.ExperienceLossData	ExperienceLossData: Loaded 85 levels.
+2026.03.11 13:40:20,252	INFO	3	org.l2jmobius.gameserver.data.xml.KarmaLossData	KarmaLossData: Loaded 85 modifiers.
+2026.03.11 13:40:20,260	INFO	3	org.l2jmobius.commons.util.IXmlReader	HitConditionBonusData: Loaded hit condition bonuses.
+2026.03.11 13:40:20,837	INFO	3	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 103 player templates.
+2026.03.11 13:40:20,838	INFO	3	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 52530 level up gain records.
+2026.03.11 13:40:20,845	INFO	3	org.l2jmobius.gameserver.data.sql.CharInfoTable	CharInfoTable: Loaded 0 char names.
+2026.03.11 13:40:20,865	INFO	3	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: Loaded 10 access levels.
+2026.03.11 13:40:20,885	INFO	3	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: Loaded 472 access commands.
+2026.03.11 13:40:20,890	INFO	3	org.l2jmobius.gameserver.managers.RaidBossPointsManager	RaidBossPointsManager: Loaded 0 Characters Raid Points.
+2026.03.11 13:40:21,511	INFO	3	org.l2jmobius.commons.util.IXmlReader	PetDataTable: Loaded 49 pets.
+2026.03.11 13:40:21,646	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Clans ]
+2026.03.11 13:40:21,956	INFO	3	org.l2jmobius.gameserver.communitybbs.Manager.ForumsBBSManager	ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+2026.03.11 13:40:21,958	INFO	3	org.l2jmobius.gameserver.data.sql.ClanTable	ClanTable: Restored 0 clans from the database.
+2026.03.11 13:40:22,179	INFO	3	org.l2jmobius.gameserver.managers.CHSiegeManager	CHSiegeManager: Loaded 6 conquerable clan halls.
+2026.03.11 13:40:22,271	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Loaded 0 auction(s)
+2026.03.11 13:40:22,344	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 22
+2026.03.11 13:40:22,353	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 23
+2026.03.11 13:40:22,362	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 24
+2026.03.11 13:40:22,370	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 25
+2026.03.11 13:40:22,375	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 26
+2026.03.11 13:40:22,404	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 27
+2026.03.11 13:40:22,412	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 28
+2026.03.11 13:40:22,419	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 29
+2026.03.11 13:40:22,428	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 30
+2026.03.11 13:40:22,436	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 31
+2026.03.11 13:40:22,443	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 32
+2026.03.11 13:40:22,451	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 33
+2026.03.11 13:40:22,458	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 36
+2026.03.11 13:40:22,467	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 37
+2026.03.11 13:40:22,475	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 38
+2026.03.11 13:40:22,484	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 39
+2026.03.11 13:40:22,492	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 40
+2026.03.11 13:40:22,502	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 41
+2026.03.11 13:40:22,511	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 42
+2026.03.11 13:40:22,576	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 43
+2026.03.11 13:40:22,584	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 44
+2026.03.11 13:40:22,592	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 45
+2026.03.11 13:40:22,602	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 46
+2026.03.11 13:40:22,609	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 47
+2026.03.11 13:40:22,619	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 48
+2026.03.11 13:40:22,693	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 49
+2026.03.11 13:40:22,700	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 50
+2026.03.11 13:40:22,709	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 51
+2026.03.11 13:40:22,714	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 52
+2026.03.11 13:40:22,720	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 53
+2026.03.11 13:40:22,726	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 54
+2026.03.11 13:40:22,733	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 55
+2026.03.11 13:40:22,740	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 56
+2026.03.11 13:40:22,748	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 57
+2026.03.11 13:40:22,758	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 58
+2026.03.11 13:40:22,765	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 59
+2026.03.11 13:40:22,775	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 60
+2026.03.11 13:40:22,783	INFO	3	org.l2jmobius.gameserver.managers.ClanHallAuctionManager	ClanHallAuctionManager: Created auction for ClanHall: 61
+2026.03.11 13:40:22,784	INFO	3	org.l2jmobius.gameserver.data.sql.ClanHallTable	ClanHallTable: Loaded 0 clan halls
+2026.03.11 13:40:22,785	INFO	3	org.l2jmobius.gameserver.data.sql.ClanHallTable	ClanHallTable: Loaded 38 free clan halls
+2026.03.11 13:40:22,785	INFO	3	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Geodata ]
+2026.03.11 13:40:23,094	INFO	3	org.l2jmobius.gameserver.geoengine.GeoEngine	GeoEngine: Loaded 0 regions.
+2026.03.11 13:40:23,094	INFO	3	org.l2jmobius.gameserver.geoengine.GeoEngine	GeoEngine: Pathfinding is disabled.
+2026.03.11 13:40:23,094	INFO	3	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ NPCs ]
+2026.03.11 13:40:23,422	INFO	3	org.l2jmobius.gameserver.managers.ZoneManager	ZoneManager 17 by 18 Zone Region Grid set up.
+2026.03.11 13:40:30,773	INFO	3	org.l2jmobius.commons.util.IXmlReader	NpcData: Loaded 10461 NPCs.
+2026.03.11 13:40:30,865	INFO	3	org.l2jmobius.commons.util.IXmlReader	NpcData: Loaded 19 custom NPCs.
+2026.03.11 13:40:30,889	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillLearnData: Loaded 256 skill learn data.
+2026.03.11 13:40:31,021	INFO	3	org.l2jmobius.gameserver.managers.GrandBossManager	GrandBossManager: Gigantic Chaos Golem(25512) status is 0.
+2026.03.11 13:40:31,184	INFO	3	org.l2jmobius.gameserver.managers.GrandBossManager	GrandBossManager: Queen Ant(29001) status is 0.
+2026.03.11 13:40:31,185	INFO	3	org.l2jmobius.gameserver.managers.GrandBossManager	GrandBossManager: Core(29006) status is 0.
+2026.03.11 13:40:31,185	INFO	3	org.l2jmobius.gameserver.managers.GrandBossManager	GrandBossManager: Orfen(29014) status is 0.
+2026.03.11 13:40:31,185	INFO	3	org.l2jmobius.gameserver.managers.GrandBossManager	GrandBossManager: Baium(29020) status is 0.
+2026.03.11 13:40:31,185	INFO	3	org.l2jmobius.gameserver.managers.GrandBossManager	GrandBossManager: Valakas(29028) status is 0.
+2026.03.11 13:40:31,185	INFO	3	org.l2jmobius.gameserver.managers.GrandBossManager	GrandBossManager: Antharas(29068) status is 0.
+2026.03.11 13:40:31,185	INFO	3	org.l2jmobius.gameserver.managers.GrandBossManager	GrandBossManager: Beleth(29118) status is 0.
+2026.03.11 13:40:31,186	INFO	3	org.l2jmobius.gameserver.managers.GrandBossManager	GrandBossManager: Loaded 8 Instances
+2026.03.11 13:40:31,499	INFO	3	org.l2jmobius.gameserver.managers.ZoneManager	ZoneManager: Loaded 31 zone classes and 2860 zones.
+2026.03.11 13:40:31,523	INFO	3	org.l2jmobius.gameserver.managers.ZoneManager	ZoneManager: Last static id 200224.
+2026.03.11 13:40:31,874	INFO	3	org.l2jmobius.commons.util.IXmlReader	DoorData: Loaded 1301 doors.
+2026.03.11 13:40:31,899	INFO	3	FenceData	FenceData: Loaded 1 fences.
+2026.03.11 13:40:32,164	INFO	3	org.l2jmobius.gameserver.data.xml.LevelUpCrystalData	Soul crystal data : Loaded 54
+2026.03.11 13:40:32,165	INFO	3	org.l2jmobius.gameserver.data.xml.LevelUpCrystalData	Npc leveling crystal data : Loaded 240
+2026.03.11 13:40:33,502	INFO	3	org.l2jmobius.gameserver.managers.WalkingManager	WalkingManager: Loaded 123 walking routes.
+2026.03.11 13:40:33,618	INFO	3	org.l2jmobius.commons.util.IXmlReader	StaticObjectData: Loaded 51 static object templates.
+2026.03.11 13:40:34,009	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 0 auction(s) for instance 32320.
+2026.03.11 13:40:34,196	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 1 on 17:00:00 13.03.26 for instance 32320
+2026.03.11 13:40:34,199	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 0 auction(s) for instance 32321.
+2026.03.11 13:40:34,203	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 2 on 17:00:00 16.03.26 for instance 32321
+2026.03.11 13:40:34,207	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 0 auction(s) for instance 32322.
+2026.03.11 13:40:34,211	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 3 on 17:00:00 11.03.26 for instance 32322
+2026.03.11 13:40:34,212	INFO	3	org.l2jmobius.gameserver.managers.ItemAuctionManager	ItemAuctionManager: Loaded 3 instance(s).
+2026.03.11 13:40:34,249	INFO	3	org.l2jmobius.gameserver.managers.CastleManager	CastleManager: Loaded 9 castles
+2026.03.11 13:40:34,262	INFO	3	org.l2jmobius.gameserver.data.SchemeBufferTable	SchemeBufferTable: Loaded 0 players schemes and 60 available buffs.
+2026.03.11 13:40:34,265	INFO	3	org.l2jmobius.gameserver.managers.GrandBossManager	GrandBossManager: Initialized 8 Grand Boss Zones
+2026.03.11 13:40:34,268	INFO	3	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Olympiad ]
+2026.03.11 13:40:34,702	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loading....
+2026.03.11 13:40:34,702	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2026.03.11 13:40:34,702	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: 20 days, 22 hours and 19 mins until period ends.
+2026.03.11 13:40:34,702	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Next weekly change is in 6 days, 23 hours and 22 mins.
+2026.03.11 13:40:34,703	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
+2026.03.11 13:40:34,707	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Competition Period Starts in 0 days, 4 hours and 20 mins.
+2026.03.11 13:40:35,816	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Event starts/started: Wed Mar 11 18:00:34 GMT-05:00 2026
+2026.03.11 13:40:35,824	INFO	3	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 Heroes.
+2026.03.11 13:40:35,825	INFO	3	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 all time Heroes.
+2026.03.11 13:40:35,825	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------=[ Seven Signs ]
+2026.03.11 13:40:35,833	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Currently in the Competition (Quest Event) period!
+2026.03.11 13:40:35,834	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Avarice remains unclaimed.
+2026.03.11 13:40:35,834	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Gnosis remains unclaimed.
+2026.03.11 13:40:35,835	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Strife remains unclaimed.
+2026.03.11 13:40:35,835	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The competition, if the current trend continues, will end in a tie this week.
+2026.03.11 13:40:35,835	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period change set to Mon Mar 16 18:00:35 GMT-05:00 2026
+2026.03.11 13:40:35,836	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period begins in 5 days, 4 hours, 19 minutes, 59 seconds, 993 milliseconds
+2026.03.11 13:40:35,837	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Cache ]
+2026.03.11 13:40:35,838	INFO	3	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: Running lazy cache.
+2026.03.11 13:40:35,841	INFO	3	org.l2jmobius.gameserver.data.sql.CrestTable	CrestTable: Loaded 0 Crests.
+2026.03.11 13:40:36,316	INFO	3	org.l2jmobius.gameserver.data.xml.TeleporterData	TeleporterData: Loaded 194 npc teleporters.
+2026.03.11 13:40:36,324	INFO	3	org.l2jmobius.gameserver.data.xml.UIData	UIData: Loaded 4 keys 5 categories.
+2026.03.11 13:40:36,404	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 33960 augmentations.
+2026.03.11 13:40:36,404	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 2754 accessory augmentations.
+2026.03.11 13:40:36,417	INFO	3	org.l2jmobius.gameserver.managers.CursedWeaponsManager	CursedWeaponsManager: Loaded : 2 cursed weapon(s).
+2026.03.11 13:40:36,841	INFO	3	org.l2jmobius.commons.util.IXmlReader	TransformData: Loaded 111 transform templates.
+2026.03.11 13:40:36,853	INFO	3	org.l2jmobius.gameserver.data.BotReportTable	BotReportTable: Loaded 0 bot reports
+2026.03.11 13:40:37,065	INFO	3	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Scripts ]
+2026.03.11 13:40:37,076	INFO	3	org.l2jmobius.gameserver.managers.AirShipManager	AirShipManager: Loaded 0 private airships
+2026.03.11 13:40:37,079	INFO	3	org.l2jmobius.gameserver.managers.SeedOfDestructionManager	Seed of Destruction Manager: Loaded. Current stage is: 1
+2026.03.11 13:40:37,080	INFO	3	org.l2jmobius.gameserver.managers.SeedOfInfinityManager	Seed of Infinity Manager: Loaded. Current stage is: 1
+2026.03.11 13:40:37,080	INFO	3	org.l2jmobius.gameserver.GameServer	Loading server scripts...
+2026.03.11 13:40:45,032	INFO	3	handlers.MasterHandler	Loading Handlers...
+2026.03.11 13:40:45,720	INFO	3	handlers.MasterHandler	ActionHandler: Loaded 10 handlers.
+2026.03.11 13:40:45,721	INFO	3	handlers.MasterHandler	ActionShiftHandler: Loaded 6 handlers.
+2026.03.11 13:40:45,721	INFO	3	handlers.MasterHandler	AdminCommandHandler: Loaded 481 handlers.
+2026.03.11 13:40:45,721	INFO	3	handlers.MasterHandler	BypassHandler: Loaded 47 handlers.
+2026.03.11 13:40:45,721	INFO	3	handlers.MasterHandler	ChatHandler: Loaded 14 handlers.
+2026.03.11 13:40:45,721	INFO	3	handlers.MasterHandler	CommunityBoardHandler: Loaded 24 handlers.
+2026.03.11 13:40:45,721	INFO	3	handlers.MasterHandler	ItemHandler: Loaded 30 handlers.
+2026.03.11 13:40:45,721	INFO	3	handlers.MasterHandler	PunishmentHandler: Loaded 3 handlers.
+2026.03.11 13:40:45,721	INFO	3	handlers.MasterHandler	UserCommandHandler: Loaded 17 handlers.
+2026.03.11 13:40:45,722	INFO	3	handlers.MasterHandler	VoicedCommandHandler: Loaded 11 handlers.
+2026.03.11 13:40:45,722	INFO	3	handlers.MasterHandler	TargetHandler: Loaded 34 handlers.
+2026.03.11 13:40:45,722	INFO	3	handlers.MasterHandler	Handlers Loaded...
+2026.03.11 13:41:14,888	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Handy's Block Checker Event is enabled
+2026.03.11 13:41:15,146	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Fantasy Isle: Parade starting at 2026/03/11 17:20 and is scheduled each next 1 hours.
+2026.03.11 13:41:15,225	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Fantasy Isle: MC show script starting at 12/03/2026 00:04:15 and is scheduled each next 4 hours.
+2026.03.11 13:41:20,970	INFO	3	ai.areas.Gracia.GraciaLoader	GraciaLoader: Loading Gracia related scripts.
+2026.03.11 13:41:23,573	INFO	3	ai.areas.Hellbound.HellboundLoader	HellboundLoader: Loading Hellbound related scripts:
+2026.03.11 13:41:23,679	INFO	3	org.l2jmobius.commons.util.IXmlReader	HellboundPointData: Loaded 47 trust point reward data.
+2026.03.11 13:41:24,402	INFO	3	org.l2jmobius.commons.util.IXmlReader	HellboundSpawns: Loaded 598 Hellbound spawns.
+2026.03.11 13:41:24,413	INFO	3	org.l2jmobius.gameserver.model.script.Quest	HellboundEngine: Level: 11
+2026.03.11 13:41:24,413	INFO	3	org.l2jmobius.gameserver.model.script.Quest	HellboundEngine: Trust: 4000000
+2026.03.11 13:41:24,414	INFO	3	org.l2jmobius.gameserver.model.script.Quest	HellboundEngine: Status: unlocked.
+2026.03.11 13:41:27,459	INFO	63	org.l2jmobius.gameserver.model.script.Quest	HellboundEngine: Spawned 424 NPCs.
+2026.03.11 13:41:27,969	INFO	3	org.l2jmobius.gameserver.managers.RaidBossSpawnManager	RaidBossSpawnManager: Loaded 187 Instances
+2026.03.11 13:41:27,969	INFO	3	org.l2jmobius.gameserver.managers.RaidBossSpawnManager	RaidBossSpawnManager: Scheduled 0 Instances
+2026.03.11 13:41:28,779	INFO	3	ai.areas.ImperialTomb.FourSepulchers.FourSepulchers	[Four Sepulchers] Loaded 762 spawn zones data.
+2026.03.11 13:41:30,692	INFO	3	org.l2jmobius.commons.util.IXmlReader	NpcBuffersData: Loaded 33 buffers data.
+2026.03.11 13:41:31,321	CONFIG	3	conquerablehalls.BanditStronghold.BanditStronghold	Bandit StrongHold siege scheduled for Wed Mar 25 12:00:00 GMT-05:00 2026.
+2026.03.11 13:41:31,395	CONFIG	3	conquerablehalls.DevastatedCastle.DevastatedCastle	Devastated Castle siege scheduled for Wed Mar 25 12:00:00 GMT-05:00 2026.
+2026.03.11 13:41:31,403	CONFIG	3	conquerablehalls.FortressOfResistance.FortressOfResistance	Fortress of Resistance siege scheduled for Wed Mar 25 12:00:00 GMT-05:00 2026.
+2026.03.11 13:41:31,958	CONFIG	3	conquerablehalls.FortressOfTheDead.FortressOfTheDead	Fortress of the Dead siege scheduled for Wed Mar 25 12:00:00 GMT-05:00 2026.
+2026.03.11 13:41:32,027	CONFIG	3	conquerablehalls.RainbowSpringsChateau.RainbowSpringsChateau	Rainbow Springs siege scheduled for Wed Mar 25 12:00:00 GMT-05:00 2026.
+2026.03.11 13:41:32,035	CONFIG	3	conquerablehalls.WildBeastReserve.WildBeastReserve	Beast Farm siege scheduled for Wed Mar 25 12:00:00 GMT-05:00 2026.
+2026.03.11 13:41:33,571	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Event Freya Celebration has passed... Ignored 
+2026.03.11 13:41:33,578	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Event Gift of Vitality has passed... Ignored 
+2026.03.11 13:41:33,585	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Event Heavy Medal has passed... Ignored 
+2026.03.11 13:41:33,591	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Event L2 Day has passed... Ignored 
+2026.03.11 13:41:33,597	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Event Love Your Gatekeeper has passed... Ignored 
+2026.03.11 13:41:33,635	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Event Master of Enchanting has passed... Ignored 
+2026.03.11 13:41:33,643	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Event Saving Santa has passed... Ignored 
+2026.03.11 13:41:33,729	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Event Valentine Event has passed... Ignored 
+2026.03.11 13:41:34,025	INFO	3	org.l2jmobius.gameserver.model.script.Quest	Event Watermelon Ninja has passed... Ignored 
+2026.03.11 13:41:51,326	INFO	3	org.l2jmobius.gameserver.model.script.Quest	TerritoryWarSuperClass: Siege date: Sun Mar 22 22:00:00 GMT-05:00 2026
+2026.03.11 13:41:53,210	INFO	3	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: Initializing spawns...
+2026.03.11 13:42:47,478	INFO	3	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: 42297 spawns have been initialized!
+2026.03.11 13:42:47,680	INFO	3	org.l2jmobius.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Removed 0 night creatures
+2026.03.11 13:42:47,995	INFO	3	org.l2jmobius.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Spawned 232 day creatures
+2026.03.11 13:42:48,387	INFO	3	org.l2jmobius.gameserver.managers.DimensionalRiftManager	DimensionalRiftManager: Loaded 7 room types with 56 rooms.
+2026.03.11 13:42:48,437	INFO	3	org.l2jmobius.gameserver.managers.DimensionalRiftManager	DimensionalRiftManager: Loaded 462 dimensional rift spawns, 0 errors.
+2026.03.11 13:42:48,438	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Siege ]
+2026.03.11 13:42:48,759	INFO	3	org.l2jmobius.gameserver.data.xml.SiegeScheduleData	SiegeScheduleData: Loaded 9 siege schedulers.
+2026.03.11 13:42:49,408	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Gludio: Sun Mar 22 16:00:00 GMT-05:00 2026
+2026.03.11 13:42:49,472	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Dion: Sun Mar 22 20:00:00 GMT-05:00 2026
+2026.03.11 13:42:49,476	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Giran: Sun Mar 22 16:00:00 GMT-05:00 2026
+2026.03.11 13:42:49,479	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Oren: Sun Mar 22 20:00:00 GMT-05:00 2026
+2026.03.11 13:42:49,948	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Aden: Sun Mar 22 16:00:00 GMT-05:00 2026
+2026.03.11 13:42:49,952	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Innadril: Sun Mar 22 20:00:00 GMT-05:00 2026
+2026.03.11 13:42:49,956	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Goddard: Sun Mar 22 16:00:00 GMT-05:00 2026
+2026.03.11 13:42:49,959	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Rune: Sun Mar 22 20:00:00 GMT-05:00 2026
+2026.03.11 13:42:49,964	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Schuttgart: Sun Mar 22 16:00:00 GMT-05:00 2026
+2026.03.11 13:42:50,903	INFO	3	org.l2jmobius.gameserver.managers.FortManager	FortManager: Loaded 21 fortress
+2026.03.11 13:42:51,819	INFO	3	org.l2jmobius.commons.util.IXmlReader	CastleManorManager: Loaded 258 seeds.
+2026.03.11 13:42:51,976	INFO	3	org.l2jmobius.commons.util.IXmlReader	CastleManorManager: Manor data loaded.
+2026.03.11 13:42:52,003	INFO	3	org.l2jmobius.gameserver.managers.MercTicketManager	MercTicketManager: Loaded 0 Mercenary Tickets
+2026.03.11 13:42:52,004	INFO	3	org.l2jmobius.gameserver.managers.ScriptManager	ScriptManager: Loaded 539 quests.
+2026.03.11 13:42:52,004	INFO	3	org.l2jmobius.gameserver.managers.ScriptManager	ScriptManager: Loaded 300 scripts.
+2026.03.11 13:42:52,011	INFO	3	org.l2jmobius.gameserver.managers.games.MonsterRaceManager	MonsterRace: loaded 0 records, currently on race #1
+2026.03.11 13:42:53,416	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSignsFestival	SevenSignsFestival: The first Festival of Darkness cycle begins in 2 minute(s).
+2026.03.11 13:42:53,417	INFO	3	org.l2jmobius.gameserver.GameServer	AutoSpawnHandler: Loaded 129 handlers in total.
+2026.03.11 13:42:53,507	INFO	3	org.l2jmobius.gameserver.managers.FishingChampionshipManager	FishingChampionshipManager : new event period start.
+2026.03.11 13:42:53,520	INFO	3	org.l2jmobius.gameserver.managers.games.KrateisCubeManager	KrateisCubeManager: Loaded 3 arena templates.
+2026.03.11 13:42:54,295	INFO	3	org.l2jmobius.gameserver.managers.games.UndergroundColiseumManager	UndergroundColiseumManager: Loaded 5 coliseum arenas.
+2026.03.11 13:42:54,296	INFO	3	org.l2jmobius.gameserver.managers.games.UndergroundColiseumManager	UndergroundColiseumManager: Starts at 13/03/2026 21:00:00
+2026.03.11 13:42:54,600	INFO	3	org.l2jmobius.gameserver.managers.DailyResetManager	DailyResetManager: Daily task will run now.
+2026.03.11 13:42:54,600	INFO	3	org.l2jmobius.gameserver.managers.DailyResetManager	Starting reset of daily tasks...
+2026.03.11 13:42:54,623	INFO	3	org.l2jmobius.gameserver.managers.DailyResetManager	Clan leaders have been updated.
+2026.03.11 13:42:54,766	INFO	3	org.l2jmobius.gameserver.managers.DailyResetManager	Daily skill reuse cleaned.
+2026.03.11 13:42:55,075	INFO	3	org.l2jmobius.gameserver.model.script.Quest	CharacterBirthday 0 gifts sent.
+2026.03.11 13:42:55,076	INFO	3	org.l2jmobius.gameserver.managers.DailyResetManager	Daily tasks reset completed.
+2026.03.11 13:42:55,419	INFO	3	org.l2jmobius.gameserver.managers.MailManager	MailManager: Loaded 0 messages.
+2026.03.11 13:42:55,443	INFO	3	org.l2jmobius.gameserver.managers.PunishmentManager	PunishmentManager: Loaded 0 active and 0 expired punishments.
+2026.03.11 13:42:55,592	INFO	3	org.l2jmobius.gameserver.GameServer	IdManager: Free ObjectID's remaining: 1878999513
+2026.03.11 13:42:55,597	INFO	3	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loading offline traders...
+2026.03.11 13:42:55,599	INFO	3	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loaded 0 offline traders.
+2026.03.11 13:42:55,900	INFO	114	org.l2jmobius.commons.util.DeadlockWatcher	DeadlockWatcher: Thread started.
+2026.03.11 13:43:00,465	INFO	3	org.l2jmobius.gameserver.GameServer	GameServer: Started, using 848 of 4096 MB total memory.
+2026.03.11 13:43:00,466	INFO	3	org.l2jmobius.gameserver.GameServer	GameServer: Maximum number of connected players is 2000.
+2026.03.11 13:43:00,521	INFO	3	org.l2jmobius.gameserver.GameServer	GameServer: Server loaded in 184 seconds.
+2026.03.11 13:43:01,445	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:01,708	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:43:06,709	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:06,710	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:43:11,711	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:11,711	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:43:16,712	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:16,713	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:43:21,714	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:21,715	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:43:26,717	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:26,718	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:43:31,720	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:31,721	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:43:36,722	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:36,723	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:43:41,725	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:41,726	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:43:46,727	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:46,728	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:43:51,729	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:51,730	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:43:56,731	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:43:56,731	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:01,733	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:01,733	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:06,735	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:06,735	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:11,736	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:11,737	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:16,740	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:16,774	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:21,775	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:21,776	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:26,778	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:26,779	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:31,868	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:31,869	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:36,870	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:36,871	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:41,873	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:41,874	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:46,875	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:46,876	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:51,877	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:51,877	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:44:56,879	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:44:56,889	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:01,891	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:01,892	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:06,893	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:06,894	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:11,895	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:11,896	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:16,897	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:16,897	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:21,898	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:21,899	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:26,902	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:26,903	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:31,904	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:31,905	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:36,906	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:36,907	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:41,908	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:41,909	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:46,910	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:46,911	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:51,913	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:51,914	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:45:56,916	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:45:56,916	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:01,919	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:01,919	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:06,920	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:06,921	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:11,922	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:11,922	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:16,924	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:16,924	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:21,926	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:21,926	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:26,928	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:26,928	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:31,930	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:31,930	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:36,933	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:36,933	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:41,935	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:41,936	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:46,937	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:46,937	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:51,939	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:51,939	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:46:56,941	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:46:56,942	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:47:01,943	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:47:01,944	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:47:06,945	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:47:06,945	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:47:11,947	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:47:11,948	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:47:16,949	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:47:16,949	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:47:21,951	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:47:21,951	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:47:26,953	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:47:26,954	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:47:31,955	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:47:31,956	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:47:36,958	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:47:36,959	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 13:47:41,960	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 13:47:58,259	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 2: Sieghardt
+2026.03.11 14:12:55,631	INFO	74	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 14 variables.
+2026.03.11 14:12:55,804	INFO	74	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 14:34:15,599	WARNING	252	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character GM! Just a warning to be careful ;)
+2026.03.11 14:42:55,321	INFO	72	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 14 variables.
+2026.03.11 14:42:55,329	INFO	72	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 14:47:05,596	WARNING	261	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_unsumont'
+2026.03.11 14:47:14,990	WARNING	97	org.l2jmobius.gameserver.handler.AdminCommandHandler	Exception during execution of admin_kill_menu
+2026.03.11 14:49:12,092	WARNING	137	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character GM! Just a warning to be careful ;)
+2026.03.11 14:51:50,373	WARNING	272	org.l2jmobius.gameserver.network.PacketLogger	[Character: GM[268485295] - Account: 12345 - IP: 127.0.0.1] sent not handled RequestBypassToServer: [_bbspremium;30]
+2026.03.11 15:06:01,452	INFO	245	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: No rights defined for admin command admin_jail auto setting accesslevel: 100 !
+2026.03.11 15:06:12,400	INFO	258	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: No rights defined for admin command admin_unjail auto setting accesslevel: 100 !
+2026.03.11 15:12:55,329	INFO	78	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 14 variables.
+2026.03.11 15:12:55,338	INFO	78	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 15:40:08,655	INFO	73	org.l2jmobius.gameserver.managers.RaidBossSpawnManager	RaidBossSpawnManager: Updated Discarded Guardian respawn time to Thu Mar 12 18:39:44 GMT-05:00 2026
+2026.03.11 15:40:38,590	WARNING	247	org.l2jmobius.gameserver.network.PacketLogger	[Character: GM[268485295] - Account: 12345 - IP: 127.0.0.1] sent not handled RequestBypassToServer: [_bbsdelevel]
+2026.03.11 15:40:39,677	WARNING	251	org.l2jmobius.gameserver.network.PacketLogger	[Character: GM[268485295] - Account: 12345 - IP: 127.0.0.1] sent not handled RequestBypassToServer: [_bbsdelevel]
+2026.03.11 15:42:55,319	INFO	60	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 14 variables.
+2026.03.11 15:42:55,329	INFO	60	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 16:00:00,153	INFO	97	org.l2jmobius.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Removed 232 day creatures
+2026.03.11 16:00:00,300	INFO	97	org.l2jmobius.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Spawned 685 night creatures
+2026.03.11 16:12:55,451	INFO	77	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 14 variables.
+2026.03.11 16:12:55,460	INFO	77	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 16:23:42,728	WARNING	250	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character sssssss! Just a warning to be careful ;)
+2026.03.11 16:42:55,385	INFO	72	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 16:42:55,410	INFO	72	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 17:00:00,252	INFO	78	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ScheduleAuctionTask: Auction 3 has started for instance 32322
+2026.03.11 17:00:00,312	INFO	78	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule current auction 3 for instance 32322
+2026.03.11 17:00:01,426	INFO	93	org.l2jmobius.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Removed 685 night creatures
+2026.03.11 17:00:02,240	INFO	93	org.l2jmobius.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Spawned 232 day creatures
+2026.03.11 17:12:55,319	INFO	71	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 17:12:55,325	INFO	71	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 17:17:22,117	WARNING	156	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character sssssss! Just a warning to be careful ;)
+2026.03.11 17:30:06,888	WARNING	246	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_drop'
+2026.03.11 17:30:25,321	WARNING	244	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_drop'
+2026.03.11 17:31:04,338	WARNING	250	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_give_item'
+2026.03.11 17:32:50,144	WARNING	247	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_admin_cw_add'
+2026.03.11 17:33:44,173	WARNING	256	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_admin_cw_add'
+2026.03.11 17:34:09,642	WARNING	257	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_cw_spawn'
+2026.03.11 17:34:19,105	WARNING	259	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_cw_create'
+2026.03.11 17:40:48,801	WARNING	253	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_admin_cw_add'
+2026.03.11 17:42:55,724	INFO	68	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 17:42:55,833	INFO	68	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 18:00:34,791	INFO	69	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Olympiad Games have started.
+2026.03.11 18:00:38,665	INFO	69	org.l2jmobius.gameserver.model.olympiad.OlympiadGameManager	Olympiad System: Loaded 160 stadiums.
+2026.03.11 18:12:55,353	INFO	69	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 18:12:55,577	INFO	69	org.l2jmobius.gameserver.managers.DailyResetManager	Olympiad System: Data updated.
+2026.03.11 18:12:55,582	INFO	69	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 18:16:40,348	WARNING	272	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_admin_buff'
+2026.03.11 18:17:16,034	WARNING	268	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_buffme'
+2026.03.11 18:20:30,740	WARNING	255	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_admin_add_skills'
+2026.03.11 18:21:40,217	WARNING	88	org.l2jmobius.gameserver.handler.AdminCommandHandler	Exception during execution of admin_setskill
+2026.03.11 18:22:11,542	WARNING	254	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_setskils'
+2026.03.11 18:42:55,450	INFO	56	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 18:42:55,452	INFO	56	org.l2jmobius.gameserver.managers.DailyResetManager	Olympiad System: Data updated.
+2026.03.11 18:42:55,459	INFO	56	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 19:07:11,674	WARNING	169	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ss! Just a warning to be careful ;)
+2026.03.11 19:12:55,381	INFO	81	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 19:12:55,384	INFO	81	org.l2jmobius.gameserver.managers.DailyResetManager	Olympiad System: Data updated.
+2026.03.11 19:12:55,392	INFO	81	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 19:37:11,892	WARNING	150	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_admin_add_skills'
+2026.03.11 19:37:24,665	WARNING	169	org.l2jmobius.gameserver.handler.AdminCommandHandler	No handler registered for admin command 'admin_allskills'
+2026.03.11 19:42:55,428	INFO	56	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 19:42:55,617	INFO	56	org.l2jmobius.gameserver.managers.DailyResetManager	Olympiad System: Data updated.
+2026.03.11 19:42:55,835	INFO	56	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 20:00:00,464	INFO	89	org.l2jmobius.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Removed 232 day creatures
+2026.03.11 20:00:00,935	INFO	89	org.l2jmobius.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Spawned 685 night creatures
+2026.03.11 20:12:55,318	INFO	69	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 20:12:55,319	INFO	69	org.l2jmobius.gameserver.managers.DailyResetManager	Olympiad System: Data updated.
+2026.03.11 20:12:55,347	INFO	69	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 20:29:43,664	WARNING	256	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ss! Just a warning to be careful ;)
+2026.03.11 20:42:55,328	INFO	63	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 20:42:55,330	INFO	63	org.l2jmobius.gameserver.managers.DailyResetManager	Olympiad System: Data updated.
+2026.03.11 20:42:55,371	INFO	63	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 21:00:01,022	INFO	86	org.l2jmobius.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Removed 685 night creatures
+2026.03.11 21:00:01,447	INFO	86	org.l2jmobius.gameserver.managers.DayNightSpawnManager	DayNightSpawnManager: Spawned 232 day creatures
+2026.03.11 21:12:55,321	INFO	77	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 21:12:55,332	INFO	77	org.l2jmobius.gameserver.managers.DailyResetManager	Olympiad System: Data updated.
+2026.03.11 21:12:55,337	INFO	77	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 21:42:55,466	INFO	55	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 21:42:55,526	INFO	55	org.l2jmobius.gameserver.managers.DailyResetManager	Olympiad System: Data updated.
+2026.03.11 21:42:55,551	INFO	55	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 22:00:02,060	INFO	78	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Auction 3 has finished. There have not been any bid for instance 32322
+2026.03.11 22:00:02,676	INFO	78	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 4 on 17:00:00 18.03.26 for instance 32322
+2026.03.11 22:12:56,639	INFO	68	org.l2jmobius.gameserver.managers.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2026.03.11 22:12:56,641	INFO	68	org.l2jmobius.gameserver.managers.DailyResetManager	Olympiad System: Data updated.
+2026.03.11 22:12:56,649	INFO	68	org.l2jmobius.gameserver.managers.DailyResetManager	SevenSigns: Data updated.
+2026.03.11 22:31:40,642	WARNING	41	org.l2jmobius.gameserver.Shutdown	Server scheduled restart issued shutdown command. Shutdown in 600 seconds!
+2026.03.11 22:31:53,449	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:31:58,450	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:31:58,661	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:03,662	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:03,663	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:08,664	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:08,664	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:10,641	WARNING	41	org.l2jmobius.gameserver.Shutdown	Server scheduled restart issued shutdown command. Shutdown in 600 seconds!
+2026.03.11 22:32:13,665	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:13,665	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:18,667	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:18,667	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:23,668	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:23,668	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:28,671	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:28,672	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:33,672	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:33,672	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:38,674	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:38,675	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:43,676	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:43,688	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:48,689	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:48,706	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:53,707	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:53,707	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:32:58,709	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:32:58,710	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:03,712	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:03,712	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:08,713	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:08,713	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:13,714	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:13,714	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:18,717	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:18,717	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:23,718	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:23,718	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:28,719	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:28,720	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:33,721	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:33,722	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:38,723	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:38,724	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:43,726	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:43,726	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:48,727	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:48,728	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:53,729	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:53,729	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:33:58,731	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:33:59,004	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:04,006	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:04,007	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:09,007	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:09,007	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:14,026	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:14,027	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:19,028	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:19,028	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:24,030	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:24,031	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:29,047	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:29,049	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:34,051	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:34,051	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:39,053	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:39,078	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:44,080	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:44,080	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:49,082	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:49,083	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:54,084	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:54,084	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:34:59,086	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:34:59,187	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:04,188	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:04,189	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:09,191	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:09,216	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:14,218	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:14,219	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:19,220	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:19,220	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:24,221	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:24,221	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:29,222	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:29,222	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:34,224	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:34,224	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:39,255	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:39,255	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:44,256	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:44,257	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:49,259	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:49,620	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:54,621	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:54,621	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:35:59,623	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:35:59,624	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:04,624	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:04,625	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:09,628	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:09,629	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:14,630	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:14,631	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:19,633	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:19,653	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:24,654	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:24,655	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:29,656	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:29,657	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:34,657	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:34,658	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:39,659	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:39,659	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:44,661	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:44,661	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:49,662	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:49,662	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:54,663	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:54,808	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:36:59,811	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:36:59,811	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:37:04,814	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:37:04,814	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:37:09,816	INFO	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2026.03.11 22:37:09,823	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2026.03.11 22:37:11,013	WARNING	1279	org.l2jmobius.gameserver.Shutdown	GM shutdown countdown is over. shutting down NOW!
+2026.03.11 22:37:11,013	WARNING	1280	org.l2jmobius.gameserver.Shutdown	GM shutdown countdown is over. shutting down NOW!
+2026.03.11 22:37:11,524	INFO	1279	org.l2jmobius.gameserver.Shutdown	All players disconnected and saved(76ms).
+2026.03.11 22:37:11,525	INFO	1279	org.l2jmobius.gameserver.Shutdown	Game Time Task Manager: Thread interruped(230ms).
+2026.03.11 22:37:11,525	INFO	1279	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Shutting down all thread pools.
+2026.03.11 22:37:12,308	INFO	1279	org.l2jmobius.gameserver.Shutdown	Thread Pool Manager: Manager has been shut down(747ms).
+2026.03.11 22:37:12,309	INFO	1279	org.l2jmobius.gameserver.Shutdown	Login Server Thread: Thread interruped(36ms).
+2026.03.11 22:37:12,309	INFO	1279	org.l2jmobius.gameserver.Shutdown	GM shutdown received. Shutting down NOW!
+2026.03.11 22:37:12,375	INFO	1279	org.l2jmobius.gameserver.Shutdown	SevenSignsFestival: Festival data saved(17ms).
+2026.03.11 22:37:12,430	INFO	1279	org.l2jmobius.gameserver.Shutdown	SevenSigns: Seven Signs data saved(104ms).
+2026.03.11 22:37:12,436	INFO	1279	org.l2jmobius.gameserver.Shutdown	SevenSigns: Seven Signs status saved(6ms).
